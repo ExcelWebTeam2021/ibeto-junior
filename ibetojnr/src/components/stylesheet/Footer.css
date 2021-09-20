@@ -1,0 +1,89 @@
+/* ------------------------------------ Footer ------------------------------------ */
+.footer {
+  background: #0d1117;
+  width: 100.5vw;
+}
+.footer-row {
+  /* Footer Container */
+
+  padding: 10px 2% 10px 2%;
+  text-align: center;
+}
+.footerMec {
+  /* MEC icon */
+  float: left;
+}
+.footerMec img {
+  width: 150px;
+}
+.footerExcel {
+  /* Excel icon*/
+  float: right;
+}
+.footerExcel img {
+  width: 150px;
+}
+
+.footerIcon {
+  /* Social icons */
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.footerIcon2 {
+  display: none;
+}
+
+.social-icons {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+.social-icons li {
+  color: #fff;
+  vertical-align: top;
+  display: inline;
+}
+.social-icons a {
+  color: #fff;
+  text-decoration: none;
+}
+.fa-facebook,
+.fa-instagram,
+.fa-linkedin-footer {
+  font-size: 25px;
+  padding: 10px 14px;
+  transition: 0.5s;
+}
+.fa-facebook:hover {
+  background-color: #3d5b99;
+}
+.fa-linkedin-footer:hover {
+  background-color: #0073a4;
+}
+.fa-instagram:hover {
+  background-color: #e64a41;
+}
+.footer-text {
+  color: white;
+}
+@media only screen and (max-width: 550px) {
+  /* Footer */
+  .footerMec img {
+    width: 100px;
+  }
+
+  .footerExcel img {
+    width: 100px;
+  }
+  .footerIcon {
+    display: none;
+  }
+  .footerIcon2 {
+    margin-top: 50px;
+    display: block;
+    margin-left: 18%;
+    margin-right: 15%;
+    padding-bottom: 20px;
+  }
+}
