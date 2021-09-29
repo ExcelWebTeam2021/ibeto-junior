@@ -25,7 +25,16 @@ const Navbar = () => {
                         <a href='#event_format'>Event Format</a>
                      </li>
                      <li onClick={handleClick}>
+                        <a href='#Rewards'>Rewards</a>
+                     </li>
+                     <li onClick={handleClick}>
+                        <a href='#Timeline'>Timeline</a>
+                     </li>
+                     <li onClick={handleClick}>
                         <a href='#testimonials'>Testimonials</a>
+                     </li>
+                     <li onClick={handleClick}>
+                        <a href='#FAQ'>FAQ</a>
                      </li>
                   </ul>
                </div>
