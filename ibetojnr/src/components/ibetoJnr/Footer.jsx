@@ -56,7 +56,7 @@ const Footer = () => {
         </div>
 
         <div className="footerExcel">
-          <a target="_blank" rel="noreferrer" href="http://excelmec.org/">
+          <a target="_blank" rel="noreferrer" href="https://www.excelmec.org/">
             <img src={logo} alt="excel logo" width="80" height="80" />
           </a>
         </div>

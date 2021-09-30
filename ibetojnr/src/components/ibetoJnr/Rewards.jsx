@@ -18,7 +18,7 @@ const Rewards = () => {
           <img src={reward} alt="reward" className="rewards-img img-fluid" />
         </div>
 
-        <div className="col-md-8 col-sm-6" data-aos="fade-left">
+        <div className="col-md-8 col-sm-6" data-aos="fade-left" style={{textAlign: 'left'}}>
           <h2 className="heading reward-heading">
             Rew<span>ards</span>
           </h2>

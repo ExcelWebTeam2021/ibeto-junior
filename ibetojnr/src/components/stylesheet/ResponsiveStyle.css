@@ -1,224 +1,229 @@
 /** --------------------------------------------------- For mobile devices ---------------------------------------------------**/
 @media (min-device-width: 20px) and (max-device-width: 500px) {
-   html,
-   body {
-      overflow-x: hidden;
-   }
-   .heading {
-      font-size: 32px;
-   }
+  html,
+  body {
+    overflow-x: hidden;
+  }
+  .heading {
+    font-size: 32px;
+  }
 
-   .content {
-      font-size: 15px;
-   }
+  .content {
+    font-size: 15px;
+  }
 
-   /*------------ Ibeto main page ------------*/
-   /* landing page */
-   .animation-container {
-      width: 100vw;
-   }
-   .bg,
-   .buttons {
-      margin-top:40%;
-      margin-left: 5%;
-      width: 55px;
-      height:55px;
-   }
-   .play-btn{
-      font-size: 0.7em;
-   }
-   .wave-pattern {
-      position: relative;
-      top:0px;
-   }
-   
-   /* Event Format */
-   .phase {
-      margin: 5%;
-      text-align: justify;
-      margin-left: 12%;
-      margin-bottom: 5%;
-      margin-right: 12%;
-      padding:5%;
-   }
-   .phase-title{
-      text-align: center;
-   }
-/* Problem stmt */
+  /*------------ Ibeto main page ------------*/
+  /* landing page */
+  .animation-container {
+    width: 100vw;
+  }
+  .bg,
+  .buttons {
+    margin-top: 40%;
+    margin-left: 5%;
+    width: 55px;
+    height: 55px;
+  }
+  .play-btn {
+    font-size: 0.7em;
+  }
+  .wave-pattern {
+    position: relative;
+    top: 0px;
+  }
+  /* About */
+  .about {
+    transform: translateY(26%);
+  }
 
-.card-front {
-   /* background-color: #1a1a1a; */
-   height: 80%;
-   width: 80%;
-}
-.card-back {
-   padding: 5%;
-   height: 80%;
-   width: 80%;
-}
-.view-sample-stmt-btn{
-   width: 100%;
-   font-size: 11px;
+  .about-logo {
+    width: 65%;
+  }
 
-}
-/* Rewards */
-   .rewards-row {
-      margin-left: 10%;
-      margin-right: 10%;
-   }
-   .rewards-img {
-      width: 60%;
-     
-   }
-   .mainsite-timeline-row {
-      padding-top: 15%;
-   }
+  /* Event Format */
+  .phase {
+    margin: 5%;
+    text-align: justify;
+    margin-left: 12%;
+    margin-bottom: 5%;
+    margin-right: 12%;
+    padding: 5%;
+  }
+  .phase-title {
+    text-align: center;
+  }
+  /* Problem stmt */
 
-   /* Junior */
-   .junior {
-      padding: 0;
-   }
-   .Jcard {
-      width: 100vw;
-      height: 80vh;
-   }
-   .Jheading {
-      font-size: 32px;
-   }
+  .card-front {
+    /* background-color: #1a1a1a; */
+    height: 80%;
+    width: 80%;
+  }
+  .card-back {
+    padding: 5%;
+    height: 80%;
+    width: 80%;
+  }
+  .view-sample-stmt-btn {
+    width: 100%;
+    font-size: 11px;
+  }
+  /* Rewards */
+  .rewards-row {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .rewards-img {
+    width: 60%;
+  }
+  .mainsite-timeline-row {
+    padding-top: 15%;
+  }
 
-   .Jbutton {
-      right: 1px;
-      width: 35px;
-      height: 35px;
-   }
+  /* Junior */
+  .junior {
+    padding: 0;
+  }
+  .Jcard {
+    width: 100vw;
+    height: 80vh;
+  }
+  .Jheading {
+    font-size: 32px;
+  }
 
-   /* Testimonials */
-   .testimonial-row {
-      padding: 0%;
-   }
+  .Jbutton {
+    right: 1px;
+    width: 35px;
+    height: 35px;
+  }
 
-   .testimonial-content {
-      padding-right: 0%;
-      padding-left: 0%;
-      font-size: 13px !important;
-   }
-   .carousel-indicators {
-      display: none;
-   }
-   .carousel-control {
-      margin-top: 18%;
-   }
+  /* Testimonials */
+  .testimonial-row {
+    padding: 0%;
+  }
 
-   /* Sponsers */
+  .testimonial-content {
+    padding-right: 0%;
+    padding-left: 0%;
+    font-size: 13px !important;
+  }
+  .carousel-indicators {
+    display: none;
+  }
+  .carousel-control {
+    margin-top: 18%;
+  }
 
-   #Sponsors .client-logo {
-      padding: 30px;
-   }
-   /* FAQ */
-   .accordion {
-      padding-left: 10%;
-      padding-right: 10%;
-   }
-   .accordion button .icon {
-      width: 3px;
-      height: 3px;
-   }
-   .faq-heading{
-      padding-left:5%;
-   }
-   .accordion button .accordion-title {
-      padding: 0.4em 0.4em 0.6em 0;
-   }
-   .accordion-title,
-   .collapse {
-      font-size: 15px;
-   }
-   .accordion-title{
-      width:70%;
-    
-   }
+  /* Sponsers */
+
+  #Sponsors .client-logo {
+    padding: 30px;
+  }
+  /* FAQ */
+  .accordion {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .accordion button .icon {
+    width: 3px;
+    height: 3px;
+  }
+  .faq-heading {
+    padding-left: 5%;
+  }
+  .accordion button .accordion-title {
+    padding: 0.4em 0.4em 0.6em 0;
+  }
+  .accordion-title,
+  .collapse {
+    font-size: 15px;
+  }
+  .accordion-title {
+    width: 70%;
+  }
 }
 
 /** --------------------------------------------------- For tablet devices ---------------------------------------------------**/
 @media (min-device-width: 501px) and (max-device-width: 800px) {
-   /*Landing page wave*/
-   .wave-shape-divider svg {
-      width: calc(147% + 1.3px);
-      height: 110px;
-   }
-   .card-container {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-   }
-   .phase {
-      margin: 5%;
-      margin-left: 5%;
-      margin-right: 5%;
-      text-align: justify;
-      margin-bottom: 4%;
-   }
-   /* timeline */
-   .mainsite-timeline-row {
-      padding-top: 15%;
-   }
-   .mainsite-timeline-title {
-      font-size: 16px;
-   }
-   /* junior section */
-   .Jheading {
-      left: 45px;
-      font-size: 50px;
-      right: 70px;
-      bottom: 7px;
-   }
-   .Jbutton {
-      right: 15px;
-      width: 40px;
-      height: 40px;
-   }
+  /*Landing page wave*/
+  .wave-shape-divider svg {
+    width: calc(147% + 1.3px);
+    height: 110px;
+  }
+  .card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .phase {
+    margin: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: justify;
+    margin-bottom: 4%;
+  }
+  /* timeline */
+  .mainsite-timeline-row {
+    padding-top: 15%;
+  }
+  .mainsite-timeline-title {
+    font-size: 16px;
+  }
+  /* junior section */
+  .Jheading {
+    left: 45px;
+    font-size: 50px;
+    right: 70px;
+    bottom: 7px;
+  }
+  .Jbutton {
+    right: 15px;
+    width: 40px;
+    height: 40px;
+  }
 }
 
 /**--------------------------------------------------- For desktop devices ----------------------------------------------------- **/
 
 @media (min-device-width: 800px) and (max-device-width: 1800px) {
-   body {
-      overflow-x: hidden;
-   }
-   /* Event format */
-   .event-format {
-      margin-left: 5%;
-      margin-right: 5%;
-   }
-   .Jheading {
-      font-size: 65px;
-   }
-   .Jbutton {
-      width: 50px;
-      height: 50px;
-   }
+  body {
+    overflow-x: hidden;
+  }
+  /* Event format */
+  .event-format {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .Jheading {
+    font-size: 65px;
+  }
+  .Jbutton {
+    width: 50px;
+    height: 50px;
+  }
 }
 
 /**--------------------------------------------------- For Larger screen devices ----------------------------------------------------- **/
 @media (min-width: 1900px) and (max-width: 3000px) {
-   body {
-      overflow-x: hidden;
-   }
-   .heading {
-      font-size: 60px;
-   }
+  body {
+    overflow-x: hidden;
+  }
+  .heading {
+    font-size: 60px;
+  }
 
-   .content {
-      font-size: 25px;
-   }
-   /* IBETO MAIN SITE */
-   .wave-shape-divider svg {
-      width: calc(140% + 1.3px);
-      height: 191px;
-   }
+  .content {
+    font-size: 25px;
+  }
+  /* IBETO MAIN SITE */
+  .wave-shape-divider svg {
+    width: calc(140% + 1.3px);
+    height: 191px;
+  }
 
-   /* event format */
-   .event-format-content {
-      font-size: 25px;
-   }
+  /* event format */
+  .event-format-content {
+    font-size: 25px;
+  }
 }
