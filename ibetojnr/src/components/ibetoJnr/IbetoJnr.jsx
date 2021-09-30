@@ -1,7 +1,6 @@
 import React from "react";
 import About from "./About";
 import EventFormat from "./EventFormat";
-import Testimonials from "./Testimonials";
 import Navbar from "./Navbar";
 import LandingPage from "./LandingPage";
 import Timeline from "./Timeline";
@@ -18,13 +17,10 @@ const IbetoJnr = () => {
             <Navbar />
             <LandingPage />
             <About />
-            
             <EventFormat />
-            <br/>
             <WhyParticipate />
             <Rewards />
             <Timeline />
-            <Testimonials />
             <FAQ />
             <Footer />
          </div>
