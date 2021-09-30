@@ -5,7 +5,7 @@ import "aos/dist/aos.css";
 import "../stylesheet/CommonStyle.css";
 import "../stylesheet/MainSiteStyle.css";
 import "../stylesheet/ResponsiveStyle.css";
-import ibeto_logo from "../images/ibetologo.svg"
+import ibeto_junior_logo from "../images/ibetologo.svg"
 
 const About = () => {
    useEffect(() => {
@@ -20,7 +20,7 @@ const About = () => {
          <br />
          <div className='row about'>
             <div data-aos='fade-right' className='col-md-4 col-xs-12'>
-               <img src={ibeto_logo} alt='ibeto-logo' className='img-fluid' />
+               <img src={ibeto_junior_logo} alt='ibeto-logo' className='img-fluid' />
             </div>
             <div data-aos='fade-left' className='col-md-7 col-xs-12 '>
                <h2 className='heading mb-4 '>

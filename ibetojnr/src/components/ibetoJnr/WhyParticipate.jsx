@@ -22,7 +22,7 @@ function WhyParticipate() {
   }, []);
   return (
     <div className="container-fluid whyparticipate-row  " data-aos="fade-in">
-      <h2 className="container heading mb-5 text-center">
+      <h2 className="container heading mb-5 text-center" style={{marginTop: "3%"}}>
         Why<span> Participate</span>
       </h2>
       {/* BIG SCREEN */}
