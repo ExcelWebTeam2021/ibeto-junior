@@ -13,7 +13,7 @@ const About = () => {
    }, []);
 
    return (
-      <div className='container-fluid about-bk mt-30' id='about'>
+      <div className='container-fluid about-bk' id='about'>
          <br />
          <br />
          <br />
@@ -27,11 +27,58 @@ const About = () => {
                   Abo<span>ut</span>
                </h2>
                <div className='content'>
-                  <p>Ibeto junoir Innovations for a Better Tomorrow (IBeTo) is a technical innovations competition hosted by Govt. Model Engineering College, Kochi as part of their annual national-level technical symposium, Excel 2020.</p>{" "}
+                  <p>Ibeto junior Innovations for a Better Tomorrow (IBeTo) is a technical innovations competition hosted by Govt. Model Engineering College, Kochi as part of their annual national-level technical symposium, Excel 2020.</p>{" "}
                </div>
-               <div className=''>
-                  <button className='btn mt-4 about-btn button-shadow about-btn-text'>Register now</button>
-               </div>
+               <div className="">
+              <button className="btn mt-4 blob-btn abt-btn button-shadow">
+                Register
+                <span className="blob-btn__inner">
+                  <span className="blob-btn__blobs">
+                    <span className="blob-btn__blob"></span>
+                    <span className="blob-btn__blob"></span>
+                    <span className="blob-btn__blob"></span>
+                    <span className="blob-btn__blob"></span>
+                  </span>
+                </span>
+              </button>
+            <button className="btn mt-4 blob-btn abt-btn button-shadow">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://drive.google.com/file/d/1mnf_TGXzcwBNRTSdzNGy3cDU3ovMcZ2h/view"
+                className="blob-btn-text"
+              >
+                Guidelines
+              </a>
+              <span className="blob-btn__inner">
+                <span className="blob-btn__blobs">
+                  <span className="blob-btn__blob"></span>
+                  <span className="blob-btn__blob"></span>
+                  <span className="blob-btn__blob"></span>
+                  <span className="blob-btn__blob"></span>
+                </span>
+              </span>
+            </button>
+            <br />
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+              <defs>
+                <filter id="goo">
+                  <feGaussianBlur
+                    in="SourceGraphic"
+                    result="blur"
+                    stdDeviation="10"
+                  ></feGaussianBlur>
+                  <feColorMatrix
+                    in="blur"
+                    mode="matrix"
+                    values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 21 -7"
+                    result="goo"
+                  ></feColorMatrix>
+                  <feBlend in2="goo" in="SourceGraphic" result="mix"></feBlend>
+                </filter>
+              </defs>
+            </svg>{" "}
+          </div>
             </div>
          </div>
       </div>
