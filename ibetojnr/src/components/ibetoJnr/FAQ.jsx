@@ -33,7 +33,7 @@ const FAQ = () => {
             </span>
             <span className="icon plus-icon" aria-hidden="true"></span>
           </button>
-          <div className="collapse" id="collapseExample1">
+          <div className="collapse content" id="collapseExample1">
             <p>No. You can register for IBeTo 2021 free of cost.</p>
           </div>
         </div>
@@ -50,7 +50,7 @@ const FAQ = () => {
             </span>
             <span className="icon plus-icon" aria-hidden="true"></span>
           </button>
-          <div className="collapse" id="collapseExample4">
+          <div className="collapse content" id="collapseExample4">
             <p>
               The selected team(s), shortlisted after the end of the IBeTo
               evaluation process, will be a part of "Forge", the preincubation
@@ -76,7 +76,7 @@ const FAQ = () => {
             </span>
             <span className="icon plus-icon" aria-hidden="true"></span>
           </button>
-          <div className="collapse" id="collapseExample6">
+          <div className="collapse content" id="collapseExample6">
             <p>
               The fellowship will include corporate internship(minimum one
               month), resume mentoring, networking experience, one-on-one
@@ -100,7 +100,7 @@ const FAQ = () => {
             </span>
             <span className="icon plus-icon" aria-hidden="true"></span>
           </button>
-          <div className="collapse" id="collapseExample2">
+          <div className="collapse content" id="collapseExample2">
             <p>A team can have 1-5 members.</p>
           </div>
         </div>
@@ -117,7 +117,7 @@ const FAQ = () => {
             </span>
             <span className="icon plus-icon" aria-hidden="true"></span>
           </button>
-          <div className="collapse" id="collapseExample3">
+          <div className="collapse content" id="collapseExample3">
             <p>
               No. A team can have members from different colleges or
               institutions.
@@ -139,7 +139,7 @@ const FAQ = () => {
             </span>
             <span className="icon plus-icon" aria-hidden="true"></span>
           </button>
-          <div className="collapse" id="collapseExample5">
+          <div className="collapse content" id="collapseExample5">
             <p>
               As per KTU regulations, socially beneficial projects can avail
               upto 50 activity points.

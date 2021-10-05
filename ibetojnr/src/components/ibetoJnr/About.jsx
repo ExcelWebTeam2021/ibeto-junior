@@ -13,20 +13,16 @@ const About = () => {
    }, []);
 
    return (
-      <div className='container-fluid about-bk' id='about'>
-         <br />
-         <br />
-         <br />
-         <br />
+      <div className='container-fluid about-bk' id='About'>
          <div className='row about'>
             <div data-aos='fade-right' className='col-md-4 col-xs-12'>
-               <img src={ibeto_junior_logo} alt='ibeto-logo' className='img-fluid' />
+               <img src={ibeto_junior_logo} alt='ibeto-logo' className="about-logo img-fluid" />
             </div>
-            <div data-aos='fade-left' className='col-md-7 col-xs-12 '>
+            <div data-aos='fade-left' className='col-md-8 col-xs-12 '>
                <h2 className='heading mb-4 '>
                   Abo<span>ut</span>
                </h2>
-               <div className='content'>
+               <div className='content about-content'>
                   <p>Ibeto junior Innovations for a Better Tomorrow (IBeTo) is a technical innovations competition hosted by Govt. Model Engineering College, Kochi as part of their annual national-level technical symposium, Excel 2020.</p>{" "}
                </div>
                <div className="">

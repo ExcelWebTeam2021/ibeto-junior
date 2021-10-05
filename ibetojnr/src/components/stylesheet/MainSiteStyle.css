@@ -272,39 +272,14 @@
 }
 
 /*-------------------------------------- About Section --------------------------------------*/
-.row-about {
-  padding-left: 5%;
-  padding-right: 5%;
-}
-#about {
-  text-align: left;
-}
-.about-btn {
-  background: linear-gradient(#d42056, #58144f);
-  overflow: hidden;
-  width: 7rem;
-  height: 1rem;
-  min-height: 50px;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50px;
-  transition: all 0.5s ease-in-out;
-  outline: none;
+.about {
+  padding-left: 6%;
+  padding-right: 6%;
+  margin-top: 5%;
 }
 
-.about-btn:focus {
-  outline: none;
-  border: none;
-  background: linear-gradient(#d42056, #58144f);
-}
-.about-btn-text {
-  outline: 0;
-  color: white;
-  text-decoration: none;
-}
-.about-btn-text:hover {
-  color: white;
+.about-logo {
+  width: 85%;
 }
 
 /*-------------------------------------- Event format --------------------------------------*/
