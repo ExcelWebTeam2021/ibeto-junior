@@ -1,6 +1,5 @@
 #FAQ {
   padding: 2%;
-  text-align: left;
 }
 .accordion .accordion-item {
   border-bottom: 1px solid #dddbdb;
@@ -14,6 +13,7 @@
   text-align: left;
   width: 100%;
   padding: 1em 0;
+  padding-right: 10%;
   font-size: 1.15rem;
   font-weight: 400;
   border: none;
@@ -89,4 +89,12 @@
   font-size: 1rem;
   font-weight: 300;
   margin: 2em 0;
+}
+@media (min-width: 1900px) and (max-width: 3000px) {
+  #FAQ {
+    padding: 0%;
+  }
+  .accordion button {
+    font-size: 25px;
+  }
 }

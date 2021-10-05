@@ -8,6 +8,7 @@ import FAQ from "./FAQ";
 import Footer from "./Footer";
 import Rewards from "./Rewards";
 import WhyParticipate from "./WhyParticipate";
+import Contact from "./Contact";
 
 const IbetoJnr = () => {
    return (
@@ -21,6 +22,7 @@ const IbetoJnr = () => {
             <WhyParticipate />
             <Rewards />
             <Timeline />
+            <Contact />
             <FAQ />
             <Footer />
          </div>

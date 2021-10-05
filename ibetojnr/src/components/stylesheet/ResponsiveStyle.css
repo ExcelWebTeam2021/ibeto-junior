@@ -17,6 +17,9 @@
   .animation-container {
     width: 100vw;
   }
+  .wave-pattern .shape-fill {
+    fill: #00000000;
+  }
   .bg,
   .buttons {
     margin-top: 40%;
@@ -29,7 +32,8 @@
   }
   .wave-pattern {
     position: relative;
-    top: 0px;
+    top: 5%;
+    visibility: hidden;
   }
   /* About */
   .about {
@@ -41,9 +45,13 @@
   }
 
   /* Event Format */
+
+  .event-format-row {
+    margin-top: 80%;
+  }
+
   .phase {
     margin: 5%;
-    text-align: justify;
     margin-left: 12%;
     margin-bottom: 5%;
     margin-right: 12%;
@@ -56,25 +64,38 @@
 
   .card-front {
     /* background-color: #1a1a1a; */
-    height: 80%;
+    height: 83%;
     width: 80%;
+  }
+  .card-title {
+    font-size: 21px;
   }
   .card-back {
     padding: 5%;
-    height: 80%;
+    height: 83%;
     width: 80%;
   }
   .view-sample-stmt-btn {
-    width: 100%;
-    font-size: 11px;
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    font-size: 12px;
+    text-decoration: underline;
+    text-decoration-color: white;
   }
   /* Rewards */
   .rewards-row {
-    margin-left: 10%;
-    margin-right: 10%;
+    display: block;
+    margin: 0 auto;
+    padding: 5%;
+  }
+  .reward-heading {
+    text-align: center;
   }
   .rewards-img {
-    width: 60%;
+    width: 70%;
+    display: block;
+    margin: 0 auto;
   }
   .mainsite-timeline-row {
     padding-top: 15%;
@@ -130,7 +151,9 @@
     height: 3px;
   }
   .faq-heading {
-    padding-left: 5%;
+    width: 80%;
+    display: block;
+    margin: 0 auto;
   }
   .accordion button .accordion-title {
     padding: 0.4em 0.4em 0.6em 0;
@@ -140,7 +163,7 @@
     font-size: 15px;
   }
   .accordion-title {
-    width: 70%;
+    width: 60%;
   }
 }
 
