@@ -14,12 +14,12 @@ const Navbar = () => {
          <div className='menu'>
             <div>
                <div>
-                  <ul className='overlay-content pt-2'>
+                  <ul style={{ padding: "0" }} className='overlay-content pt-2'>
                      <li onClick={handleClick}>
                         <a href='#home'>Home</a>
                      </li>
                      <li onClick={handleClick}>
-                        <a href='#about'>About</a>
+                        <a href='#About'>About</a>
                      </li>
                      <li onClick={handleClick}>
                         <a href='#event_format'>Event Format</a>
@@ -29,9 +29,6 @@ const Navbar = () => {
                      </li>
                      <li onClick={handleClick}>
                         <a href='#Timeline'>Timeline</a>
-                     </li>
-                     <li onClick={handleClick}>
-                        <a href='#testimonials'>Testimonials</a>
                      </li>
                      <li onClick={handleClick}>
                         <a href='#FAQ'>FAQ</a>

@@ -65,7 +65,7 @@
   width: 16px;
   height: 10px;
   position: absolute;
-  background: #bb4787;
+  background: #643d7a;
   z-index: 5;
   left: 0;
   right: 0;
@@ -76,7 +76,7 @@
 }
 
 .timeline .hexa:before {
-  border-bottom: 4px solid #bb4787;
+  border-bottom: 4px solid #643d7a;
   border-left-width: 8px;
   border-right-width: 8px;
   top: -4px;
@@ -85,7 +85,7 @@
 .timeline .hexa:after {
   border-left-width: 8px;
   border-right-width: 8px;
-  border-top: 4px solid #bb4787;
+  border-top: 4px solid #643d7a;
   bottom: -4px;
 }
 
@@ -104,21 +104,13 @@
 .flag {
   position: relative;
   display: inline;
-  background: rgb(255, 255, 255);
+  background: #fff;
   font-weight: 600;
-  color: #292929;
+  color: #140c22;
   z-index: 15;
   padding: 6px 10px;
   text-align: left;
   border-radius: 5px;
-}
-
-.direction-l .flag {
-  box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.15), 0 0 1px rgba(0, 0, 0, 0.15);
-}
-
-.direction-r .flag {
-  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15), 0 0 1px rgba(0, 0, 0, 0.15);
 }
 
 .direction-l .time-wrapper {
