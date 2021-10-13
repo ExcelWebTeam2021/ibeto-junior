@@ -1,4 +1,5 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useRef } from "react";
+import lottie from "lottie-web";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "../stylesheet/CommonStyle.css";
@@ -10,8 +11,20 @@ import PhaseTwo from "../images/PhaseTwo.svg";
 import PhaseThree from "../images/PhaseThree.svg";
 
 export default function EventFormat() {
+   const LandingPage = useRef(null);
+
    useEffect(() => {
-      AOS.init({ duration: 1100 });
+      const anime1 = lottie.loadAnimation({
+         container: LandingPage.current,
+         renderer: "svg",
+         loop: true,
+         autoplay: true,
+         animationData: require("./animations/LandingPageAnimation.json"),
+      });
+      AOS.init({ duration: 1000 });
+      return () => {
+         anime1.destroy();
+      }; // clean up for unmounting
    }, []);
 
    return (
@@ -22,7 +35,7 @@ export default function EventFormat() {
 
          <div className='row event-format'>
             <div data-aos='fade-in' className='col-md-3 col-sm-10 phase'>
-               <img className='event-format-img img-fluid' src={PhaseOne} width='100' alt='' />
+               <div className='' ref={LandingPage}></div>
                <div className=''>Phase 1</div>
                <h3 className='event-title'>Ideate</h3>
                <p className='content event-format-content text-left'>Participants will undergo an online evaluation with respect to technical aspects that supplement a project. 25 teams will be shortlisted and asked to send a detailed abstract.</p>
