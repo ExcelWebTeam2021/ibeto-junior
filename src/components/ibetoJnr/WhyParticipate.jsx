@@ -18,14 +18,23 @@ function WhyParticipate() {
          </h2>
          <div className='row'>
             <div className='col-md-3'>
-               <img src={whyparticipate1} alt='' width='350' height='350' />
+               <img src={whyparticipate1} alt='' width='230' height='230' />
             </div>
             <div className='col-md-6'>
-               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit eaque amet blanditiis suscipit a autem ab consectetur dicta accusamus eveniet maxime, aperiam laboriosam ipsa quasi molestias nemo! Sunt minus autem nesciunt commodi magni aperiam quisquam eligendi nemo
-               repudiandae, quam esse?
+               <p>
+                  {" "}
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit eaque amet blanditiis suscipit a autem ab consectetur dicta accusamus eveniet maxime, aperiam laboriosam ipsa quasi molestias nemo! Sunt minus autem nesciunt commodi magni aperiam quisquam eligendi nemo
+                  repudiandae, quam esse?
+               </p>
+               <br />
+               <p>
+                  {" "}
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit eaque amet blanditiis suscipit a autem ab consectetur dicta accusamus eveniet maxime, aperiam laboriosam ipsa quasi molestias nemo! Sunt minus autem nesciunt commodi magni aperiam quisquam eligendi nemo
+                  repudiandae, quam esse?
+               </p>
             </div>
             <div className='col-md-3'>
-               <img src={whyparticipate2} alt='' width='350' height='350' />
+               <img src={whyparticipate2} alt='' width='230' height='230' />
             </div>
          </div>
       </div>
