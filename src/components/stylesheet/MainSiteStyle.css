@@ -159,18 +159,6 @@
 
 /*-------------------------------------- Landing Page  -------------------------------------- */
 
-/*play button */
-.btn-container {
-   position: absolute;
-   left: 0;
-   right: 0;
-   margin-left: auto;
-   margin-right: auto;
-   top: 55%;
-   z-index: 10;
-   width: 100px; /* Need a specific value to work */
-}
-
 /* main div */
 
 .animation-container {
@@ -180,7 +168,7 @@
 }
 .wave-pattern {
    position: absolute;
-   bottom: 0;
+   bottom: -2px;
    top: -3px;
    left: 0;
    width: 100%;
@@ -198,7 +186,7 @@
 }
 
 .wave-pattern .shape-fill {
-   fill: #ffffff;
+   fill: #fff;
 }
 
 /** For tablet devices **/
@@ -222,6 +210,7 @@
    padding-left: 6%;
    padding-right: 6%;
    margin-top: 5%;
+   background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.3)), url(../images/bk2.svg);
 }
 
 .about-logo {
@@ -239,7 +228,7 @@
    /* justify-content: space-between; */
 }
 .event-format-heading {
-   background: linear-gradient(#3863f1, #1a1a1a);
+   background: linear-gradient(#587bec, #3c0569);
    background-clip: text;
    -webkit-text-fill-color: transparent;
 }
@@ -263,68 +252,17 @@
    padding: 7%;
    font-size: 16px;
 }
-/*--------------------------------- Problem Statement ---------------------------------*/
-.problem-stmt-row {
-   margin: 5%;
-}
-.card-container {
-   position: relative;
-   perspective: 200rem;
-   height: 330px;
-   display: flex;
-   flex-direction: row;
-   justify-content: space-evenly;
-}
-
-.card {
-   position: absolute;
-   transition: all 1.5s;
-   backface-visibility: hidden;
-   border-radius: 10px;
-   box-shadow: rgba(143, 129, 119, 0.2) 5px 10px 20px;
-}
-.card-front {
-   background-color: #1a1a1a;
-   height: 80%;
-   width: 63%;
-}
-
-.card-back {
-   padding: 5%;
-   transform: rotateY(180deg);
-   height: 80%;
-   width: 63%;
-}
-.view-sample-stmt-btn {
-   width: 100%;
-   font-size: 15px;
-   background-color: #1a1a1a;
-   color: white;
-}
-.card-container:hover .card-front {
-   transform: rotateY(180deg);
-   /* border-radius: 100%; */
-}
-
-.card-container:hover .card-back {
-   transform: rotateY(0deg);
-   /* border-radius: 100%; */
-}
-
-.card-back .card-body {
-   position: relative;
-}
 
 /* -------------------------------------- Rewards -------------------------------------- */
 .rewards-row {
-   padding: 1%;
+   padding: 10px;
    margin-top: 5%;
 }
 .rewards-img {
    width: 100%;
 }
+.jnr-timeline-row {
+   padding-top: 15%;
 
-.rewards-list {
-   padding-left: 5%;
-   padding-right: 5%;
+   background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.2)), url(../images/bk3.svg);
 }

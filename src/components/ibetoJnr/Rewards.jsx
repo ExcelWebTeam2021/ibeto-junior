@@ -14,11 +14,11 @@ const Rewards = () => {
    return (
       <div className='container-fluid rewards-row  '>
          <div className='justify-content-center row' id='Rewards'>
-            <div data-aos='fade-right' className='col-md-5 col-sm-6'>
+            <div data-aos='fade-right' className='col-md-5 col-sm-12 '>
                <img src={reward} alt='reward' className='rewards-img img-fluid' />
             </div>
 
-            <div className='col-md-7 col-sm-6' data-aos='fade-left' style={{ textAlign: "left" }}>
+            <div className='col-md-6 col-sm-10 jrn-rewards' data-aos='fade-left' style={{ textAlign: "left" }}>
                <h2 className='heading reward-heading'>
                   Rew<span>ards</span>
                </h2>

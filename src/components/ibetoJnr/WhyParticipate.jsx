@@ -12,15 +12,15 @@ function WhyParticipate() {
       AOS.init({ duration: 1100 });
    }, []);
    return (
-      <div className='container-fluid whyparticipate-row  ' data-aos='fade-in'>
+      <div className='container whyparticipate-row  ' data-aos='fade-in'>
          <h2 className='container heading mb-5 text-center' style={{ marginTop: "3%" }}>
             Why<span> Participate</span>
          </h2>
          <div className='row'>
-               <div className='col-md-3'>
+            <div className='col-md-3'>
                <img src={whyparticipate1} alt='' width='230' height='230' />
-               </div>    
-            <div className='col-md-6'>
+            </div>
+            <div className='col-md-6 whyparticipate-content'>
                <p className='content'>
                   {" "}
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit eaque amet blanditiis suscipit a autem ab consectetur dicta accusamus eveniet maxime, aperiam laboriosam ipsa quasi molestias nemo! Sunt minus autem nesciunt commodi magni aperiam quisquam eligendi nemo

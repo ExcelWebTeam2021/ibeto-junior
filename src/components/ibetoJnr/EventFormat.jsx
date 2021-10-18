@@ -42,8 +42,8 @@ export default function EventFormat() {
    }, []);
 
    return (
-      <div className='container-fluid text-center' id='event_format'>
-         <h2 className='container heading mt-5'>
+      <div className='container-fluid text-center jnr-event_format' id='event_format'>
+         <h2 className='container heading '>
             Event<span> Format</span>
          </h2>
 
