@@ -14,8 +14,8 @@ const FAQ = () => {
          <h2 className='heading faq-heading'>
             Frequently Ask<span>ed Questions</span>
          </h2>
-         <div className='row'>
-            <div className='col-8'>
+         <div className=''>
+            <div className=''>
                <div className='accordion content'>
                   <div className='accordion-item'>
                      <button id='accordion-button-1' data-toggle='collapse' href='#collapseExample1' aria-expanded='false' aria-controls='collapseExample1'>
@@ -81,7 +81,6 @@ const FAQ = () => {
                   </div>
                </div>
             </div>
-            <div className='col-4'></div>
          </div>
       </div>
    );
