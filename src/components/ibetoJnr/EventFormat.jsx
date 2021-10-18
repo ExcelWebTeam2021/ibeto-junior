@@ -17,22 +17,21 @@ export default function EventFormat() {
          renderer: "svg",
          loop: true,
          autoplay: true,
-         animationData: require("./animations/Growth Animation.json"),
+         animationData: require("./animations/Event Phase1.json"),
       });
       const anime2 = lottie.loadAnimation({
          container: EventPhaseTwo.current,
          renderer: "svg",
          loop: true,
          autoplay: true,
-
-         animationData: require("./animations/Blogging.json"),
+         animationData: require("./animations/Event Phase2.json"),
       });
       const anime3 = lottie.loadAnimation({
          container: EventPhaseThree.current,
          renderer: "svg",
          loop: true,
          autoplay: true,
-         animationData: require("./animations/Testig Tech Colored.json"),
+         animationData: require("./animations/Event Phase3.json"),
       });
       AOS.init({ duration: 1000 });
       return () => {

@@ -1,12 +1,28 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useRef } from "react";
 import AOS from "aos";
+import lottie from "lottie-web";
 import "aos/dist/aos.css";
 import "../stylesheet/MainSiteStyle.css";
 import "../stylesheet/FAQ.css";
+export default function FAQ() {
+   const FAQ = useRef(null);
 
-const FAQ = () => {
    useEffect(() => {
       AOS.init({ duration: 1100 });
+   }, []);
+
+   useEffect(() => {
+      const anime1 = lottie.loadAnimation({
+         container: FAQ.current,
+         renderer: "svg",
+         loop: true,
+         autoplay: true,
+         animationData: require("./animations/FAQ Chatbot.json"),
+      });
+      AOS.init({ duration: 1000 });
+      return () => {
+         anime1.destroy();
+      }; // clean up for unmounting
    }, []);
 
    return (
@@ -81,9 +97,9 @@ const FAQ = () => {
                   </div>
                </div>
             </div>
+
+            <div className='col-4' ref={FAQ}></div>
          </div>
       </div>
    );
-};
-
-export default FAQ;
+}

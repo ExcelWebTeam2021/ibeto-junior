@@ -17,9 +17,9 @@ function WhyParticipate() {
             Why<span> Participate</span>
          </h2>
          <div className='row'>
-            <div className='col-md-3'>
+               <div className='col-md-3'>
                <img src={whyparticipate1} alt='' width='230' height='230' />
-            </div>
+               </div>    
             <div className='col-md-6'>
                <p className='content'>
                   {" "}
