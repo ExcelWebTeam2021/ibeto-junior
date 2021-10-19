@@ -207,20 +207,20 @@
 
 /*-------------------------------------- About Section --------------------------------------*/
 .about {
-   padding-left: 6%;
-   padding-right: 6%;
+   padding-left: 10%;
+   padding-right: 10%;
    margin-top: 5%;
    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.3)), url(../images/bk2.svg);
 }
 
 .about-logo {
-   width: 85%;
+   width: 80%;
 }
-
+.guidlines-btn {
+   margin-left: 5%;
+}
 /*-------------------------------------- Event format --------------------------------------*/
-.event-format-row {
-   margin-top: 5%;
-}
+
 .event-format {
    display: flex;
    flex-direction: row;
@@ -252,17 +252,28 @@
    padding: 7%;
    font-size: 16px;
 }
-
+/* Why participate */
+.whyparticipate-detail {
+   line-height: 35px;
+}
+.lookingfor-row {
+   padding: 10px;
+   margin-top: 5%;
+   background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.3)), url(../images/bk3.svg);
+}
 /* -------------------------------------- Rewards -------------------------------------- */
 .rewards-row {
    padding: 10px;
    margin-top: 5%;
 }
 .rewards-img {
-   width: 100%;
+   width: 80%;
+}
+.rewards-list {
+   width: 70%;
 }
 .jnr-timeline-row {
-   padding-top: 15%;
+   padding-top: 5%;
 
    background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.2)), url(../images/bk3.svg);
 }

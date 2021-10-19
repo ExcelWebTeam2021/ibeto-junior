@@ -52,21 +52,21 @@ export default function EventFormat() {
                <div className='' ref={EventPhaseOne}></div>
                <div className=''>Phase 1</div>
                <h3 className='event-title event-format-heading'>Ideate</h3>
-               <p className='content event-format-content text-left'>Participants will undergo an online evaluation with respect to technical aspects that supplement a project. 25 teams will be shortlisted and asked to send a detailed abstract.</p>
+               <p className='content event-format-content text-left'>Teams will be submitting ideas which are technologically relevant and have a positive impact on the society. The project ideas can be based on any socially relevant theme.</p>
             </div>
 
             <div data-aos='fade-in' data-aos-delay='200' className='col-md-3 col-sm-10 phase'>
                <div className='' ref={EventPhaseTwo}></div>
                <div>Phase 2</div>
                <h3 className='event-title event-format-heading'>Create</h3>
-               <p className='content event-format-content text-left'>25 teams shortlisted into the quarterfinals will be asked to send in their project plans and assigned mentors to whom the teams are to report to.</p>
+               <p className='content event-format-content text-left'>Teams shortlisted after the Ideate Phase will be building their prototypes during this period. At this stage the teams will be assigned a mentor to help them in project development.</p>
             </div>
 
             <div data-aos='fade-in' data-aos-delay='400' className='col-md-3 col-sm-10 phase'>
                <div className='' ref={EventPhaseThree}></div>
                <div>Phase 3</div>
                <h3 className='event-title event-format-heading'>Showcase</h3>
-               <p className='content event-format-content text-left'>The teams are to submit a video presentation along with a demonstration of their working prototype in front of the judges on Day 0 of Excel 2020, which will be the final judgement.</p>
+               <p className='content event-format-content text-left'>The teams will have to present their project along with a demonstration of the working prototype in front of the judges on Day 1 of Excel, which will be judged primarily based on their social relevance.</p>
             </div>
          </div>
       </div>

@@ -29,55 +29,58 @@ export default function FAQ() {
                   </div>
                   <div className='accordion-item'>
                      <button id='accordion-button-4' aria-expanded='false' data-toggle='collapse' href='#collapseExample4' aria-controls='collapseExample4'>
-                        <span className='accordion-title'>What all opportunities do pre incubation provide?</span>
+                        <span className='accordion-title'>Can I form a team with students of other schools?</span>
                         <span className='icon plus-icon' aria-hidden='true'></span>
                      </button>
                      <div className='collapse content' id='collapseExample4'>
-                        <p>
-                           The selected team(s), shortlisted after the end of the IBeTo evaluation process, will be a part of "Forge", the preincubation program of IEDC MEC, and will be able to avail its services, which include mentorship from industry experts and other support to convert the
-                           product into an MVP(Minimum Viable Product). There will also be possible funding from the KSUM after the conversion of the product into an MVP.For more details please refer guidelines in the about section
-                        </p>
+                        <p>Yes. Cross institution participation is encouraged.</p>
                      </div>
                   </div>
                   <div className='accordion-item'>
                      <button id='accordion-button-6' aria-expanded='false' data-toggle='collapse' href='#collapseExample6' aria-controls='collapseExample6'>
-                        <span className='accordion-title'>What all opportunities do Pehia fellowship provide?</span>
+                        <span className='accordion-title'>How will I be informed about the rounds?</span>
                         <span className='icon plus-icon' aria-hidden='true'></span>
                      </button>
                      <div className='collapse content' id='collapseExample6'>
-                        <p>
-                           The fellowship will include corporate internship(minimum one month), resume mentoring, networking experience, one-on-one mentoring from industry experts of your field of choice, all subject to the discretion of Pehia. For more details please refer guidelines in the about
-                           section
-                        </p>
+                        <p>You will be informed through your registered email-id and phone number.</p>
                      </div>
                   </div>
 
                   <div className='accordion-item'>
                      <button id='accordion-button-2' data-toggle='collapse' href='#collapseExample2' aria-expanded='false' aria-controls='collapseExample2'>
-                        <span className='accordion-title'>What is the team size limit?</span>
+                        <span className='accordion-title'>Is the final presentation online or offline?</span>
                         <span className='icon plus-icon' aria-hidden='true'></span>
                      </button>
                      <div className='collapse content' id='collapseExample2'>
-                        <p>A team can have 1-5 members.</p>
+                        <p>The presentation will be through any suitable Online platform. .</p>
                      </div>
                   </div>
                   <div className='accordion-item'>
                      <button id='accordion-button-3' aria-expanded='false' data-toggle='collapse' href='#collapseExample3' aria-controls='collapseExample3'>
-                        <span className='accordion-title'>Should all team members be from the same college or institution?</span>
+                        <span className='accordion-title'>Should I develop the product or is a prototype sufficient?</span>
                         <span className='icon plus-icon' aria-hidden='true'></span>
                      </button>
                      <div className='collapse content' id='collapseExample3'>
-                        <p>No. A team can have members from different colleges or institutions.</p>
+                        <p>A completed product is more preferable, although just a prototype is also acceptable. However, an actual product will be given more preference over a prototype.</p>
                      </div>
                   </div>
 
                   <div className='accordion-item'>
                      <button id='accordion-button-5' aria-expanded='false' data-toggle='collapse' href='#collapseExample5' aria-controls='collapseExample5'>
-                        <span className='accordion-title'>Will I be eligible for KTU activity points if I take part in IBeTo 2021?</span>
+                        <span className='accordion-title'>Is there an age limit for participation?</span>
                         <span className='icon plus-icon' aria-hidden='true'></span>
                      </button>
                      <div className='collapse content' id='collapseExample5'>
-                        <p>As per KTU regulations, socially beneficial projects can avail upto 50 activity points.</p>
+                        <p>Yes you have to be a student of any class from 7th std to 12th std, and under 19 years of age.</p>
+                     </div>
+                  </div>
+                  <div className='accordion-item'>
+                     <button id='accordion-button-11' aria-expanded='false' data-toggle='collapse' href='#collapseExample11' aria-controls='collapseExample3'>
+                        <span className='accordion-title'>Should the project be software based or hardware based?</span>
+                        <span className='icon plus-icon' aria-hidden='true'></span>
+                     </button>
+                     <div className='collapse content' id='collapseExample11'>
+                        <p>It could be either or both. The primary requirement is that it should be a socially and technologically innovative project idea.</p>
                      </div>
                   </div>
                </div>

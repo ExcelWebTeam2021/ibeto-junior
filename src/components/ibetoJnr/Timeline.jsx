@@ -10,7 +10,7 @@ const Timeline = () => {
       AOS.init({ duration: 1000 });
    }, []);
    return (
-      <div className='container mt-5 ' id='Timeline'>
+      <div className='container ' id='Timeline'>
          <div className=' jnr-timeline-row '>
             <h2 align='center' className='heading '>
                Time<span className='heading-span'>line</span>
@@ -22,8 +22,8 @@ const Timeline = () => {
                      <div className='direction-r'>
                         <div className='flag-wrapper' data-aos='fade-in' data-aos-delay='200'>
                            <span className='hexa'></span>
-                           <span className='time content'> 31st August 2021</span> <br />
-                           <span className='flag content'>IBeTo Launch</span>
+                           <span className='time content'> 3rd November, 2021</span> <br />
+                           <span className='flag content'>End of Registration</span>
                         </div>
                      </div>
                   </li>
@@ -32,8 +32,8 @@ const Timeline = () => {
                      <div className='direction-l'>
                         <div className='flag-wrapper' data-aos='fade-in' data-aos-delay='200'>
                            <span className='hexa'></span>
-                           <span className='time content'>10th September 2021</span> <br />
-                           <span className='flag content'>IBeTo Registration Closes</span>
+                           <span className='time content'>10th November, 2021</span> <br />
+                           <span className='flag content'>Idea Submission deadline </span>
                         </div>
                      </div>
                   </li>
@@ -42,8 +42,8 @@ const Timeline = () => {
                      <div className='direction-r'>
                         <div className='flag-wrapper' data-aos='fade-in' data-aos-delay='200'>
                            <span className='hexa'></span>
-                           <span className='time content'> 23rd September 2021</span> <br />
-                           <span className='flag content'>Idea submission Deadline</span>
+                           <span className='time content'> 16th November, 2021</span> <br />
+                           <span className='flag content'>Start of Create phase</span>
                         </div>
                      </div>
                   </li>
@@ -51,8 +51,8 @@ const Timeline = () => {
                      <div className='direction-l'>
                         <div className='flag-wrapper' data-aos='fade-in' data-aos-delay='200'>
                            <span className='hexa'></span>
-                           <span className='time content'>27th September 2021</span> <br />
-                           <span className='flag content'>Announcement of shortlisted teams</span>
+                           <span className='time content'> 2nd January, 2022</span> <br />
+                           <span className='flag content'>End of Create phase</span>
                         </div>
                      </div>
                   </li>
@@ -61,46 +61,8 @@ const Timeline = () => {
                      <div className='direction-r'>
                         <div className='flag-wrapper' data-aos='fade-in' data-aos-delay='200'>
                            <span className='hexa'></span>
-                           <span className='time content'> 7th October 2021</span> <br />
-                           <span className='flag content'>Detailed Abstract Submission</span>
-                        </div>
-                     </div>
-                  </li>
-                  <li>
-                     <div className='direction-l'>
-                        <div className='flag-wrapper' data-aos='fade-in' data-aos-delay='200'>
-                           <span className='hexa'></span>
-                           <span className='time content'>12th October 2021</span> <br />
-                           <span className='flag content'>Announcement of shortlisted teams</span>
-                        </div>
-                     </div>
-                  </li>
-
-                  <li>
-                     <div className='direction-r'>
-                        <div className='flag-wrapper' data-aos='fade-in' data-aos-delay='200'>
-                           <span className='hexa'></span>
-                           <span className='time content'>13th October - 31st December 2021</span> <br />
-                           <span className='flag content'>Project implementation and development</span>
-                        </div>
-                     </div>
-                  </li>
-                  <li>
-                     <div className='direction-l'>
-                        <div className='flag-wrapper' data-aos='fade-in' data-aos-delay='200'>
-                           <span className='hexa'></span>
-                           <span className='time content'>25th November 2021</span> <br />
-                           <span className='flag content'>Announcement of 25 shortlisted teams</span>
-                        </div>
-                     </div>
-                  </li>
-
-                  <li>
-                     <div className='direction-r'>
-                        <div className='flag-wrapper' data-aos='fade-in' data-aos-delay='200'>
-                           <span className='hexa'></span>
-                           <span className='time content'> January 2022 </span> <br />
-                           <span className='flag content'>Final video presentation of the project</span>
+                           <span className='time content'> 6th January, 2022</span> <br />
+                           <span className='flag content'>Project presentation</span>
                         </div>
                      </div>
                   </li>

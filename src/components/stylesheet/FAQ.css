@@ -1,5 +1,7 @@
 #FAQ {
    padding: 2%;
+
+   background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.2)), url(../images/bk1.svg);
 }
 .accordion .accordion-item {
    border-bottom: 1px solid #dddbdb;
@@ -23,12 +25,12 @@
 .accordion button:hover,
 .accordion button:focus {
    cursor: pointer;
-   color: #6956bd;
+   color: #1a1a1a;
 }
 .accordion button:hover::after,
 .accordion button:focus::after {
    cursor: pointer;
-   color: #6956bd;
+   color: #1a1a1a;
    border: 1px solid #6956bd;
 }
 .accordion button .accordion-title {

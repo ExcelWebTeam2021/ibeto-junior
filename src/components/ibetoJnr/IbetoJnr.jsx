@@ -9,16 +9,18 @@ import Footer from "./Footer";
 import Rewards from "./Rewards";
 import WhyParticipate from "./WhyParticipate";
 import Contact from "./Contact";
+import Lookingfor from "./Lookingfor";
 
 const IbetoJnr = () => {
    return (
-      <div className= 'ibeto-mainsite'>
+      <div className='ibeto-mainsite'>
          <div>
             {" "}
             <Navbar />
             <LandingPage />
             <About />
             <EventFormat />
+            <Lookingfor />
             <WhyParticipate />
             <Rewards />
             <Timeline />

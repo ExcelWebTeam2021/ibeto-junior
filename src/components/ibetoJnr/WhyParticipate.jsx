@@ -14,27 +14,25 @@ function WhyParticipate() {
    return (
       <div className='container whyparticipate-row  ' data-aos='fade-in'>
          <h2 className='container heading mb-5 text-center' style={{ marginTop: "3%" }}>
-            Why<span> Participate</span>
+            Why should you not miss the opportunity?
          </h2>
          <div className='row'>
             <div className='col-md-3'>
-               <img src={whyparticipate1} alt='' width='230' height='230' />
+               <img src={whyparticipate1} alt='' width='200' height='200' />
             </div>
             <div className='col-md-6 whyparticipate-content'>
-               <p className='content'>
-                  {" "}
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit eaque amet blanditiis suscipit a autem ab consectetur dicta accusamus eveniet maxime, aperiam laboriosam ipsa quasi molestias nemo! Sunt minus autem nesciunt commodi magni aperiam quisquam eligendi nemo
-                  repudiandae, quam esse?
-               </p>
-               <br />
-               <p className='content'>
-                  {" "}
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit eaque amet blanditiis suscipit a autem ab consectetur dicta accusamus eveniet maxime, aperiam laboriosam ipsa quasi molestias nemo! Sunt minus autem nesciunt commodi magni aperiam quisquam eligendi nemo
-                  repudiandae, quam esse?
-               </p>
+               <ul>
+                  <li className='content whyparticipate-detail'>A headstart into the field of technology </li>
+                  <li className='content whyparticipate-detail'>A golden chance to win prizes worth Rs. 15,000</li>
+                  <li className='content whyparticipate-detail'>Great opportunity to build strong networks </li>
+
+                  <li className='content whyparticipate-detail'>Mentorship from experts, to develop the project </li>
+
+                  <li className='content whyparticipate-detail'>Technical sessions to support project development </li>
+               </ul>
             </div>
             <div className='col-md-3'>
-               <img src={whyparticipate2} alt='' width='230' height='230' />
+               <img src={whyparticipate2} alt='' width='200' height='200' />
             </div>
          </div>
       </div>

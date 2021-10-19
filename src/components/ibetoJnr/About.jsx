@@ -19,24 +19,30 @@ const About = () => {
             <div data-aos='fade-right' className='col-md-4 col-xs-12'>
                <img src={logo} alt='ibeto-logo' className='about-logo img-fluid' />
             </div>
-            <div data-aos='fade-left' className='col-md-8 col-xs-12 '>
+            <div data-aos='fade-left' className='about-section col-md-7 col-xs-12 '>
                <h2 className='heading mb-4 '>
                   Abo<span>ut</span>
                </h2>
                <div className='content about-content'>
                   <p>
-                     Innovations for a Better Tomorrow (IBeTo) is a technical innovations competition hosted by Govt. Model Engineering College, Kochi as part of their annual national-level technical symposium, Excel 2021. It is a national-level pursuit for socially relevant and technologically
-                     innovative ideas with the potential to trigger the next big social change. IBeTo gives the right platform and mentorship to launch the most technically innovative and revolutionary ideas and to develop them into a final product. IBeTo bridges the gap between innovators and
-                     society.{" "}
-                  </p>
-                  <p>
-                     This year marks the 10th edition of IBeTo, and thus IBeTo 2021 in association with IEDC MEC, Pehia, and AVT & Co. Ltd, has an added vision of working towards fulfilling the United Nations Sustainable Development Goals (UN SDGs) along with providing an opportunity to develop and
-                     implement the projects on a large scale in areas where technology is yet to make strides.
+                     <b>IBeTo Junior 2021</b> (Innovations for a Better Tomorrow Junior) is an initiative of Excel 2021 aimed at unfolding technologically innovative ideas from <b>7th to 12th grade school students</b>. Under efficient mentorship and with the provision of necessary tools and
+                     resources, we intend to provide the right platform for developing the creative proposals.
                   </p>
                </div>
-               <div className='text-center'>
+               <div className=''>
                   <button className='btn mt-4 blob-btn abt-btn button-shadow'>
                      Register
+                     <span className='blob-btn__inner'>
+                        <span className='blob-btn__blobs'>
+                           <span className='blob-btn__blob'></span>
+                           <span className='blob-btn__blob'></span>
+                           <span className='blob-btn__blob'></span>
+                           <span className='blob-btn__blob'></span>
+                        </span>
+                     </span>
+                  </button>
+                  <button className='btn mt-4 blob-btn guidlines-btn button-shadow'>
+                     Guidelines
                      <span className='blob-btn__inner'>
                         <span className='blob-btn__blobs'>
                            <span className='blob-btn__blob'></span>

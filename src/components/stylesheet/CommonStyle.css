@@ -30,14 +30,14 @@ a:active {
 
 .heading {
    color: #2d2a31;
-   font-size: 35px;
+   font-size: 30px;
    font-family: "Raleway", sans-serif;
 }
 
 .content {
    color: #39343d;
    font-family: "Open Sans", sans-serif;
-   font-size: 17px;
+   font-size: 18px;
    line-height: 1.6;
 }
 
@@ -53,13 +53,12 @@ a:active {
    border: 2px solid #58144f;
    text-align: center;
    overflow: hidden;
-   width: 9rem;
-   height: 1rem;
-   font-size: 20px;
-   min-height: 50px;
+   width: 7rem;
+   height: 0.8rem;
+   font-size: 18px;
+   min-height: 45px;
    flex-direction: row;
    justify-content: center;
-   align-items: center;
 }
 
 .blob-btn-text {
