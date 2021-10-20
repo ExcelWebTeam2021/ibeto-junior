@@ -41,7 +41,9 @@
       font-size: 15px;
    }
    /* About */
-
+   .about {
+      background: #fff;
+   }
    .about-logo {
       width: 65%;
    }

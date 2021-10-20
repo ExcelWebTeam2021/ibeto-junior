@@ -24,14 +24,13 @@ const Rewards = () => {
                </h2>
                <br />
                <ul className='content rewards-list'>
-                  <li>Prizes worth Rs. 15,000 for the top 3 teams.</li>
+                  <li>Prizes worth ₹15,000 for the top 3 teams.</li>
                   <li>Certificate of participation and special mentions for the non-winning teams </li>
                </ul>
             </div>
             <div data-aos='fade-right' className='col-md-4 col-sm-10 '>
                <img src={reward} alt='reward' className='rewards-img2 img-fluid' />
             </div>
-
          </div>
       </div>
    );
