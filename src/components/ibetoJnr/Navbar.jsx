@@ -41,7 +41,10 @@ const Navbar = () => {
             </div>
          </div>
          <div className=''>
-            <img className='navbar-brand' src={ibetologotext} alt='' />
+            <a href='https://ibetojr.excelmec.org/'>
+               {" "}
+               <img className='navbar-brand1' src={ibetologotext} alt='' />
+            </a>
          </div>
       </div>
    );

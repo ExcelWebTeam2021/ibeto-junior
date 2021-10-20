@@ -149,13 +149,13 @@
    margin: -2px auto;
    border-radius: 100px;
 }
-.navbar-brand {
+.navbar-brand1 {
    position: absolute;
    z-index: 200;
-   width: 120px;
+   width: 110px;
    height: 90px;
    top: 1%;
-   right: 1px;
+   right: 5%;
 }
 
 /*-------------------------------------- Landing Page  -------------------------------------- */
