@@ -111,6 +111,9 @@
       padding: 30px;
    }
    /* FAQ */
+   #FAQ {
+      background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.2)), url(../images/bk5.svg);
+   }
    .accordion {
       padding-left: 10%;
       padding-right: 10%;
