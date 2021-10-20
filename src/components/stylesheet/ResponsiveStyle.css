@@ -5,17 +5,17 @@
       overflow-x: hidden;
    }
    .heading {
-      font-size: 32px;
+      font-size: 30px;
    }
 
    .content {
-      font-size: 15px;
+      font-size: 16px;
    }
    .navbar-brand {
       position: absolute;
       z-index: 200;
-      width: 130px;
-      height: 80px;
+      width: 90px;
+      height: 50px;
       right: 1px;
       top: 10px;
    }
@@ -29,14 +29,16 @@
    .animation-container {
       width: 100vw;
    }
-   .wave-pattern .shape-fill {
-      fill: #00000000;
+   .wave-shape-divider svg {
+      width: calc(120% + 1.3px);
+      height: 120px;
    }
 
-   .wave-pattern {
-      position: relative;
-      top: 5%;
-      visibility: hidden;
+   .abt-btn,
+   .guidlines-btn {
+      width: 6rem;
+      min-height: 38px;
+      font-size: 15px;
    }
    /* About */
 
@@ -65,7 +67,25 @@
       margin-left: 13%;
       margin-right: 10%;
    }
+   .whyparticipate-detail {
+      line-height: 26px;
+      padding-bottom: 3%;
+   }
+   .whyparticipate_girl {
+      float: right;
+   }
+   .lookingfor-row {
+      margin-top: -10px;
+      padding-right: 7%;
+      padding-left: 7%;
+   }
 
+   .rewards-img2 {
+      display: block;
+   }
+   .rewards-img1 {
+      display: none;
+   }
    /* Rewards */
    .rewards-row {
       display: block;
@@ -172,6 +192,9 @@
       width: 50px;
       height: 50px;
    }
+   .rewards-img2 {
+      display: none;
+   }
 }
 
 /**--------------------------------------------------- For Larger screen devices ----------------------------------------------------- **/
@@ -195,5 +218,8 @@
    /* event format */
    .event-format-content {
       font-size: 25px;
+   }
+   .rewards-img2 {
+      display: none;
    }
 }

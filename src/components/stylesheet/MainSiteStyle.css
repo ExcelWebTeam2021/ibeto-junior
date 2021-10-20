@@ -258,8 +258,12 @@
 }
 .lookingfor-row {
    padding: 10px;
-   margin-top: 5%;
+   margin-top: 3%;
    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.3)), url(../images/bk3.svg);
+}
+.lookingfor-content {
+   padding-right: 8%;
+   padding-left: 8%;
 }
 /* -------------------------------------- Rewards -------------------------------------- */
 .rewards-row {

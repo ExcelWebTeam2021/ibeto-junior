@@ -41,7 +41,7 @@ const Navbar = () => {
             </div>
          </div>
          <div className=''>
-            <img class='navbar-brand' src={ibetologotext} alt='' />
+            <img className='navbar-brand' src={ibetologotext} alt='' />
          </div>
       </div>
    );

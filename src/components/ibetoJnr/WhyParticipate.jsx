@@ -32,7 +32,7 @@ function WhyParticipate() {
                </ul>
             </div>
             <div className='col-md-3'>
-               <img src={whyparticipate2} alt='' width='200' height='200' />
+               <img className='whyparticipate_girl' src={whyparticipate2} alt='' width='200' height='200' />
             </div>
          </div>
       </div>

@@ -1,6 +1,6 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect } from "react";
 import AOS from "aos";
-import lottie from "lottie-web";
+
 import "aos/dist/aos.css";
 import "../stylesheet/MainSiteStyle.css";
 import "../stylesheet/FAQ.css";
@@ -20,11 +20,11 @@ export default function FAQ() {
                <div className='accordion content'>
                   <div className='accordion-item'>
                      <button id='accordion-button-1' data-toggle='collapse' href='#collapseExample1' aria-expanded='false' aria-controls='collapseExample1'>
-                        <span className='accordion-title'>Will there be a registration fee to participate in IBeTo 2021?</span>
+                        <span className='accordion-title'>Will there be a registration fee to participate in IBeTo Jr. 2021?</span>
                         <span className='icon plus-icon' aria-hidden='true'></span>
                      </button>
                      <div className='collapse content' id='collapseExample1'>
-                        <p>No. You can register for IBeTo 2021 free of cost.</p>
+                        <p>No. You can register for IBeTo Jr. 2021 free of cost.</p>
                      </div>
                   </div>
                   <div className='accordion-item'>
