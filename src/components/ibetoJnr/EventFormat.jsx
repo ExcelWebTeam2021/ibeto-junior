@@ -33,7 +33,7 @@ export default function EventFormat() {
          autoplay: true,
          animationData: require("./animations/Event Phase3.json"),
       });
-      AOS.init({ duration: 1000 });
+      AOS.init({ duration: 1300 });
       return () => {
          anime1.destroy();
          anime2.destroy();
@@ -55,14 +55,14 @@ export default function EventFormat() {
                <p className='content event-format-content text-left'>Teams will be submitting ideas which are technologically relevant and have a positive impact on the society. The project ideas can be based on any socially relevant theme.</p>
             </div>
 
-            <div data-aos='fade-in' data-aos-delay='200' className='col-md-3 col-sm-10 phase'>
+            <div data-aos='fade-in' data-aos-delay='300' className='col-md-3 col-sm-10 phase'>
                <div className='' ref={EventPhaseTwo}></div>
                <div>Phase 2</div>
                <h3 className='event-title event-format-heading'>Create</h3>
                <p className='content event-format-content text-left'>Teams shortlisted after the Ideate Phase will be building their prototypes during this period. At this stage the teams will be assigned a mentor to help them in project development.</p>
             </div>
 
-            <div data-aos='fade-in' data-aos-delay='400' className='col-md-3 col-sm-10 phase'>
+            <div data-aos='fade-in' data-aos-delay='600' className='col-md-3 col-sm-10 phase'>
                <div className='' ref={EventPhaseThree}></div>
                <div>Phase 3</div>
                <h3 className='event-title event-format-heading'>Showcase</h3>

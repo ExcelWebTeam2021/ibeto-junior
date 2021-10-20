@@ -9,18 +9,18 @@ import whyparticipate1 from "../images/whyparticipate-boy.svg";
 import whyparticipate2 from "../images/whyparticipate-girl.svg";
 function WhyParticipate() {
    useEffect(() => {
-      AOS.init({ duration: 1100 });
+      AOS.init({ duration: 1300 });
    }, []);
    return (
-      <div className='container whyparticipate-row  ' data-aos='fade-in'>
+      <div className='container whyparticipate-row  '>
          <h2 className='container heading mb-5 text-center' style={{ marginTop: "3%" }}>
             Why should you not miss the opportunity?
          </h2>
          <div className='row'>
-            <div className='col-md-3'>
-               <img src={whyparticipate1} alt='' width='200' height='200' />
+            <div className='col-md-3' data-aos='fade-left'>
+               <img src={whyparticipate1} alt='' width='210' height='210' />
             </div>
-            <div className='col-md-6 whyparticipate-content'>
+            <div className='col-md-6 whyparticipate-content' data-aos='fade-in'>
                <ul>
                   <li className='content whyparticipate-detail'>A headstart into the field of technology </li>
                   <li className='content whyparticipate-detail'>A golden chance to win prizes worth Rs. 15,000</li>
@@ -31,8 +31,8 @@ function WhyParticipate() {
                   <li className='content whyparticipate-detail'>Technical sessions to support project development </li>
                </ul>
             </div>
-            <div className='col-md-3'>
-               <img className='whyparticipate_girl' src={whyparticipate2} alt='' width='200' height='200' />
+            <div className='col-md-3' data-aos='fade-right'>
+               <img className='whyparticipate_girl' src={whyparticipate2} alt='' width='210' height='210' />
             </div>
          </div>
       </div>

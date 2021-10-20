@@ -13,10 +13,10 @@ const Lookingfor = () => {
    return (
       <div className='container-fluid lookingfor-row  '>
          <div className='justify-content-center row'>
-            <div className='col-md-9 ' data-aos='fade-left'>
+            <div className='col-md-9 '>
                <h2 className='heading text-center'>What are we looking for ?</h2>
                <br />
-               <p className='content lookingfor-content'>
+               <p className='content lookingfor-content' data-aos='fade-in'>
                   We are looking for innovative minds, who can come up with solutions for any social problems that they find in our society. The ideas should be something a little more than the quintessential science project, something technically innovative and socially beneficial. The idea will be
                   judged on originality, creativity and implementability. If the idea is selected, during the create phase, a project guide with expertise in the field of technology, will be assigned to offer you technical help/advice in building the project.{" "}
                </p>
