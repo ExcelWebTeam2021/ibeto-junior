@@ -125,7 +125,7 @@
 .menu-wrap .menu > div > div > ul > li {
    list-style: none;
    font-size: 1.7rem;
-   padding: 3.2%;
+   padding-top: 7%;
 }
 
 .menu-wrap .menu > div > div > ul > li > a {
@@ -254,9 +254,25 @@
    font-size: 16px;
 }
 /* Why participate */
-.whyparticipate-detail {
-   line-height: 35px;
+.whyparticipate-row {
+   margin-left: 2%;
+   margin-right: 2%;
 }
+.whyparticipate-heading {
+   font-size: 29px;
+   margin-bottom: 5%;
+}
+
+.whyparticipate-detail {
+   padding: 1%;
+   margin-left: 5%;
+   margin-right: 5%;
+}
+.whyparticipate_boy_div,
+.whyparticipate_girl_div {
+   margin-top: 5%;
+}
+
 .lookingfor-row {
    padding: 10px;
    margin-top: 3%;
@@ -275,7 +291,8 @@
    width: 80%;
 }
 .rewards-list {
-   width: 70%;
+   width: 60%;
+   line-height: 35px;
 }
 .jnr-timeline-row {
    padding-top: 5%;

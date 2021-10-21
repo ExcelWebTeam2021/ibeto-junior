@@ -43,6 +43,8 @@
    /* About */
    .about {
       background: #fff;
+      text-align: center;
+      margin-top: 5%;
    }
    .about-logo {
       width: 65%;
@@ -61,6 +63,9 @@
       margin-right: 12%;
       padding: 5%;
    }
+   .event-format-content {
+      text-align: center !important;
+   }
    .phase-title {
       text-align: center;
    }
@@ -76,10 +81,16 @@
    .whyparticipate_girl {
       float: right;
    }
+   .whyparticipate_boy,
+   .whyparticipate_girl {
+      height: 160px;
+      width: 160px;
+   }
    .lookingfor-row {
       margin-top: -10px;
       padding-right: 7%;
       padding-left: 7%;
+      text-align: center;
    }
 
    .rewards-img2 {
@@ -103,6 +114,7 @@
    .rewards-list {
       margin-left: 8%;
       margin-right: 5%;
+      width: 90%;
    }
 
    /* Sponsers */

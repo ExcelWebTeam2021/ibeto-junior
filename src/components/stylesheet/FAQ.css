@@ -1,7 +1,15 @@
 #FAQ {
    padding: 2%;
-
+   margin-left: 5%;
+   margin-right: 5%;
    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.2)), url(../images/bk5.svg);
+}
+.faq-content {
+   margin-left: 2%;
+   margin-right: 2%;
+}
+.accordion-item {
+   width: 90%;
 }
 .accordion .accordion-item {
    border-bottom: 1px solid #dddbdb;

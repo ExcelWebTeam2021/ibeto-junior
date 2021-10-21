@@ -11,11 +11,11 @@ export default function FAQ() {
    }, []);
 
    return (
-      <div data-aos='fade-in' className='container mt-4 mb-5' id='FAQ' data-aos-delay='250'>
+      <div data-aos='fade-in' className='faq-row container-fluid mt-4 mb-5' id='FAQ' data-aos-delay='250'>
          <h2 className='heading faq-heading'>
             Frequently Ask<span>ed Questions</span>
          </h2>
-         <div className=''>
+         <div className='faq-content'>
             <div className=''>
                <div className='accordion content'>
                   <div className='accordion-item'>

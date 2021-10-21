@@ -14,7 +14,7 @@ const Lookingfor = () => {
       <div className='container-fluid lookingfor-row  '>
          <div className='justify-content-center row'>
             <div className='col-md-9 '>
-               <h2 className='heading text-center'>What are we looking for ?</h2>
+               <h2 className='heading lokkingfor-heading text-center'>What are we looking for ?</h2>
                <br />
                <p className='content lookingfor-content' data-aos='fade-in'>
                   We are looking for innovative minds, who can come up with solutions for any social problems that they find in our society. The ideas should be something a little more than the quintessential science project, something technically innovative and socially beneficial. The idea will be
