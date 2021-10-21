@@ -255,8 +255,8 @@
 }
 /* Why participate */
 .whyparticipate-row {
-   margin-left: 2%;
-   margin-right: 2%;
+   /* margin-left: 2%;
+   margin-right: 2%; */
 }
 .whyparticipate-heading {
    font-size: 29px;
@@ -265,12 +265,15 @@
 
 .whyparticipate-detail {
    padding: 1%;
-   margin-left: 5%;
-   margin-right: 5%;
+   margin-left: 15%;
+   margin-right: 15%;
 }
 .whyparticipate_boy_div,
 .whyparticipate_girl_div {
    margin-top: 5%;
+}
+.whyparticipate_boy {
+   float: right;
 }
 
 .lookingfor-row {

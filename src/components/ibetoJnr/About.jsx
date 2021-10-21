@@ -29,28 +29,32 @@ const About = () => {
                   </p>
                </div>
                <div className=''>
-                  <button className='btn mt-4 blob-btn abt-btn button-shadow'>
-                     Register
-                     <span className='blob-btn__inner'>
-                        <span className='blob-btn__blobs'>
-                           <span className='blob-btn__blob'></span>
-                           <span className='blob-btn__blob'></span>
-                           <span className='blob-btn__blob'></span>
-                           <span className='blob-btn__blob'></span>
+                  <a target='_blank' rel='noreferrer' href='https://bit.ly/IBeToJr_Registration'>
+                     <button className='btn mt-4 blob-btn abt-btn button-shadow'>
+                        Register
+                        <span className='blob-btn__inner'>
+                           <span className='blob-btn__blobs'>
+                              <span className='blob-btn__blob'></span>
+                              <span className='blob-btn__blob'></span>
+                              <span className='blob-btn__blob'></span>
+                              <span className='blob-btn__blob'></span>
+                           </span>
                         </span>
-                     </span>
-                  </button>
-                  <button className='btn mt-4 blob-btn guidlines-btn button-shadow'>
-                     Guidelines
-                     <span className='blob-btn__inner'>
-                        <span className='blob-btn__blobs'>
-                           <span className='blob-btn__blob'></span>
-                           <span className='blob-btn__blob'></span>
-                           <span className='blob-btn__blob'></span>
-                           <span className='blob-btn__blob'></span>
+                     </button>
+                  </a>
+                  <a target='_blank' rel='noreferrer' href='https://drive.google.com/file/d/1YG_ZRYsXDhUKfXoIv1v1K2WyOLp5-y6Q/view'>
+                     <button className='btn mt-4 blob-btn guidlines-btn button-shadow'>
+                        Guidelines
+                        <span className='blob-btn__inner'>
+                           <span className='blob-btn__blobs'>
+                              <span className='blob-btn__blob'></span>
+                              <span className='blob-btn__blob'></span>
+                              <span className='blob-btn__blob'></span>
+                              <span className='blob-btn__blob'></span>
+                           </span>
                         </span>
-                     </span>
-                  </button>
+                     </button>
+                  </a>
                   <br />
                   <svg xmlns='http://www.w3.org/2000/svg' version='1.1'>
                      <defs>

@@ -212,6 +212,11 @@
    .rewards-img2 {
       display: none;
    }
+   .whyparticipate_girl,
+   .whyparticipate_boy {
+      width: 300px;
+      height: 300px;
+   }
 }
 
 /**--------------------------------------------------- For Larger screen devices ----------------------------------------------------- **/
@@ -238,5 +243,10 @@
    }
    .rewards-img2 {
       display: none;
+   }
+   .whyparticipate_girl,
+   .whyparticipate_boy {
+      width: 300px;
+      height: 300px;
    }
 }

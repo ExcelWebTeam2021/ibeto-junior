@@ -52,7 +52,7 @@ export default function FAQ() {
                         <span className='icon plus-icon' aria-hidden='true'></span>
                      </button>
                      <div className='collapse content' id='collapseExample2'>
-                        <p>The presentation will be through any suitable Online platform. .</p>
+                        <p>The presentation will be through any suitable Online platform.</p>
                      </div>
                   </div>
                   <div className='accordion-item'>

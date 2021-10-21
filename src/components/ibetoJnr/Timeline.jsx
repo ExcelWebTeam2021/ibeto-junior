@@ -23,7 +23,7 @@ const Timeline = () => {
                         <div className='flag-wrapper' data-aos='fade-in' data-aos-delay='200'>
                            <span className='hexa'></span>
                            <span className='time content'> 3rd November, 2021</span> <br />
-                           <span className='flag content'>End of Registration</span>
+                           <span className='flag content'>End of registration</span>
                         </div>
                      </div>
                   </li>
@@ -33,7 +33,7 @@ const Timeline = () => {
                         <div className='flag-wrapper' data-aos='fade-in' data-aos-delay='200'>
                            <span className='hexa'></span>
                            <span className='time content'>10th November, 2021</span> <br />
-                           <span className='flag content'>Idea Submission deadline </span>
+                           <span className='flag content'>Idea submission deadline </span>
                         </div>
                      </div>
                   </li>
