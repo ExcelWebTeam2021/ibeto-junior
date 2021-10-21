@@ -14,6 +14,7 @@
    float: left;
 }
 .footerMec img {
+   margin-top: 6%;
    width: 150px;
 }
 .footerExcel {
@@ -21,7 +22,8 @@
    float: right;
 }
 .footerExcel img {
-   width: 150px;
+   margin-top: 6%;
+   width: 50px;
 }
 
 .footerIcon {
@@ -72,11 +74,12 @@
 @media only screen and (max-width: 550px) {
    /* Footer */
    .footerMec img {
+      margin-top: 16%;
       width: 100px;
    }
 
    .footerExcel img {
-      width: 100px;
+      width: 35px;
    }
    .footerIcon {
       display: none;
@@ -84,8 +87,11 @@
    .footerIcon2 {
       margin-top: 50px;
       display: block;
-      margin-left: 30%;
+      margin-left: 38%;
       margin-right: 15%;
       padding-bottom: 20px;
+   }
+   .footer-text {
+      font-size: 14px;
    }
 }

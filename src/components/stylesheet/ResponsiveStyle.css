@@ -1,5 +1,5 @@
 /** --------------------------------------------------- For mobile devices ---------------------------------------------------**/
-@media (min-device-width: 20px) and (max-device-width: 500px) {
+@media (min-device-width: 20px) and (max-device-width: 700px) {
    html,
    body {
       overflow-x: hidden;
