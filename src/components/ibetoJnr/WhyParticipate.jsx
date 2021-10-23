@@ -22,7 +22,7 @@ function WhyParticipate() {
                </h2>
                <ul>
                   <li className='content whyparticipate-detail'>A headstart into the field of technology </li>
-                  <li className='content whyparticipate-detail'>A golden chance to win prizes worth Rs. 15,000</li>
+                  <li className='content whyparticipate-detail'>A golden chance to win prizes worth ₹15,000</li>
                   <li className='content whyparticipate-detail'>Great opportunity to build strong networks </li>
 
                   <li className='content whyparticipate-detail'>Mentorship from experts, to develop the project </li>
