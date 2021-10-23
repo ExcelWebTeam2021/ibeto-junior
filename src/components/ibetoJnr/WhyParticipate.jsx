@@ -14,7 +14,7 @@ function WhyParticipate() {
       <div className='container-fluid whyparticipate-row  '>
          <div className='row'>
             <div className='col-md-3 whyparticipate_boy_div' data-aos='fade-left'>
-               <img className='whyparticipate_boy' src={whyparticipate1} alt='' width='210' height='210' />
+               <img className='whyparticipate_boy' src={whyparticipate1} alt='' />
             </div>
             <div className='col-md-6 whyparticipate-content' data-aos='fade-in'>
                <h2 className='whyparticipate-heading heading text-center' style={{ marginTop: "3%" }}>
@@ -31,7 +31,7 @@ function WhyParticipate() {
                </ul>
             </div>
             <div className='col-md-3 whyparticipate_girl_div' data-aos='fade-right'>
-               <img className='whyparticipate_girl' src={whyparticipate2} alt='' width='210' height='210' />
+               <img className='whyparticipate_girl' src={whyparticipate2} alt='' />
             </div>
          </div>
       </div>

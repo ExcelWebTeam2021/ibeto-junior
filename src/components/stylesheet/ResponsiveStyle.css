@@ -5,7 +5,7 @@
       overflow-x: hidden;
    }
    .heading {
-      font-size: 30px;
+      font-size: 29px;
    }
 
    .content {
@@ -78,6 +78,9 @@
       line-height: 26px;
       padding-bottom: 3%;
    }
+   .whyparticipate_boy {
+      float: left;
+   }
    .whyparticipate_girl {
       float: right;
    }
@@ -86,6 +89,12 @@
       height: 160px;
       width: 160px;
    }
+   .whyparticipate-detail {
+      padding: 1%;
+      margin-left: 1%;
+      margin-right: 1%;
+   }
+
    .lookingfor-row {
       margin-top: -10px;
       padding-right: 7%;

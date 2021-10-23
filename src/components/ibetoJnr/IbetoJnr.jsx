@@ -10,6 +10,7 @@ import Rewards from "./Rewards";
 import WhyParticipate from "./WhyParticipate";
 import Contact from "./Contact";
 import Lookingfor from "./Lookingfor";
+import Sponsors from "./Sponsors";
 
 const IbetoJnr = () => {
    return (
@@ -24,6 +25,7 @@ const IbetoJnr = () => {
             <WhyParticipate />
             <Rewards />
             <Timeline />
+            <Sponsors />
             <Contact />
             <FAQ />
             <Footer />
