@@ -71,7 +71,8 @@
    color: white;
    transform: translateX(-5%);
 }
-@media only screen and (max-width: 550px) {
+
+@media only screen and (max-width: 500px) {
    /* Footer */
    .footerMec img {
       margin-top: 16%;
@@ -93,5 +94,6 @@
    }
    .footer-text {
       font-size: 14px;
+      text-align: center;
    }
 }
