@@ -6,7 +6,7 @@ import "../stylesheet/Sponsors.css";
 import "../stylesheet/ResponsiveStyle.css";
 
 import AVT from "../images/AVT.png";
-// import IDEC from "../images/IDEC.png";
+import DSC from "../images/DSC.png";
 // import Pehia from "../images/Pehia.jpg";
 
 const Sponsors = () => {
@@ -19,8 +19,8 @@ const Sponsors = () => {
          <h2 align='center' className='heading '>
             In associ<span>ation with</span>
          </h2>
-         <div className='row no-gutters clients-wrap clearfix wow fadeInUp'>
-            <div className='col-lg-4 col-md-4 col-xs-6'>
+         <div className='row text-center no-gutters clients-wrap clearfix wow fadeInUp'>
+            <div className=' col-md-5 col-xs-6'>
                <div data-aos='zoom-out' className='client-logo'>
                   {" "}
                   <a href='https://www.avtnatural.com/'>
@@ -28,24 +28,24 @@ const Sponsors = () => {
                   </a>{" "}
                </div>
             </div>
-            <div className='col-lg-4 col-md-4 col-xs-6'>
+            <div className=' col-md-7 col-xs-6'>
                <div data-aos='zoom-out' className='client-logo'>
                   {" "}
-                  <a href='https://iedcmec.in/'>
+                  <a href='https://gdsc.community.dev/government-model-engineering-college-thrikkakara/'>
                      {" "}
-                     <img src={AVT} className='img-fluid' alt='IDEC' />
+                     <img src={DSC} className='img-fluid' alt='DSC' />
                   </a>{" "}
                </div>
             </div>
 
-            <div className='col-lg-4 col-md-4 col-xs-6'>
+            {/* <div className=' col-md-4 col-xs-6'>
                <div data-aos='zoom-out' className='client-logo'>
                   {" "}
                   <a href='https://www.pehia.org/ '>
                      <img src={AVT} className='img-fluid' alt='' />
                   </a>{" "}
                </div>
-            </div>
+            </div> */}
          </div>
       </div>
    );

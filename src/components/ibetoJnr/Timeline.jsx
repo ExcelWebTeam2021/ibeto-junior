@@ -61,7 +61,7 @@ const Timeline = () => {
                      <div className='direction-r'>
                         <div className='flag-wrapper' data-aos='fade-in' data-aos-delay='200'>
                            <span className='hexa'></span>
-                           <span className='time content'> 6th January, 2022</span> <br />
+                           <span className='time content'> First week of January 2022 </span> <br />
                            <span className='flag content'>Project presentation</span>
                         </div>
                      </div>

@@ -25,7 +25,7 @@ const IbetoJnr = () => {
             <WhyParticipate />
             <Rewards />
             <Timeline />
-            {/* <Sponsors /> */}
+            <Sponsors />
             <Contact />
             <FAQ />
             <Footer />
