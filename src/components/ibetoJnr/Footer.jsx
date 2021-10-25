@@ -65,7 +65,7 @@ const Footer = () => {
                   </a>
                </li>
             </ul>
-            <p className='footer-text'>Made with ♥ Excel 2021</p>
+            <p className='footer-text'> Made with ♥ Excel 2021</p>
          </div>
       </div>
    );
