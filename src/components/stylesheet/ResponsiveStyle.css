@@ -161,10 +161,11 @@
    .social-icons .fa-facebook,
    .social-icons .fa-instagram,
    .social-icons .fa-linkedin-footer {
-      font-size: 20px !important;
+      font-size: 19px !important;
    }
    .footer-text {
       text-align: center;
+      font-size: 14px;
    }
 }
 
