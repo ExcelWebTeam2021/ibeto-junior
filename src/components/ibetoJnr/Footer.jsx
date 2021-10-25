@@ -1,5 +1,6 @@
 import React from "react";
 import "../stylesheet/Footer.css";
+import "../stylesheet/ResponsiveStyle.css";
 import logo from "../images/logo.svg";
 import mec_logo from "../images/mec_logo.png";
 
@@ -38,14 +39,14 @@ const Footer = () => {
             </div>
 
             <div className='footerExcel'>
-               <a target='_blank' rel='noreferrer' href='https://www.excelmec.org/'>
+               <a target='_blank' rel='noreferrer' href='http://excelmec.org/'>
                   <img src={logo} alt='excel logo' width='80' height='80' />
                </a>
             </div>
          </div>
 
-         <div className='footerIcon2 row'>
-            <ul className='social-icons col-sm-8'>
+         <div className='footerIcon2'>
+            <ul className='social-icons'>
                <li>
                   <a target='_blank' rel='noreferrer' href='https://www.facebook.com/excelmec/' className='social-icon'>
                      {" "}
@@ -65,7 +66,7 @@ const Footer = () => {
                   </a>
                </li>
             </ul>
-            <p className='footer-text'> Made with ♥ Excel 2021</p>
+            <p className='footer-text'>Made with ♥ Excel 2021</p>
          </div>
       </div>
    );

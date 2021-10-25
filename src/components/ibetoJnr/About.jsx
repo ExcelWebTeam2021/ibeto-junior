@@ -18,11 +18,11 @@ const About = () => {
             <div data-aos='fade-right' className='col-md-4 col-xs-12'>
                <img src={logo} alt='ibeto-logo' className='about-logo img-fluid' />
             </div>
-            <div data-aos='fade-left' className='about-section col-md-7 col-xs-12 '>
+            <div data-aos='fade-left' className='about-section col-md-6 col-xs-12 '>
                <h2 className='heading mb-4 '>
                   Abo<span>ut</span>
                </h2>
-               <div className='content about-content'>
+               <div className='content about-content abt-content'>
                   <p>
                      <b>IBeTo Junior 2021</b> (Innovations for a Better Tomorrow Junior) is an initiative of Excel 2021 aimed at unfolding technologically innovative ideas from <b>7th to 12th grade school students</b>. Under efficient mentorship and with the provision of necessary tools and
                      resources, we intend to provide the right platform for developing the creative proposals.

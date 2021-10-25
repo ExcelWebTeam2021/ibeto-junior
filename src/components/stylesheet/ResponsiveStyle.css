@@ -158,6 +158,14 @@
    .accordion-title {
       width: 60%;
    }
+   .social-icons .fa-facebook,
+   .social-icons .fa-instagram,
+   .social-icons .fa-linkedin-footer {
+      font-size: 20px !important;
+   }
+   .footer-text {
+      text-align: center;
+   }
 }
 
 /** --------------------------------------------------- For tablet devices ---------------------------------------------------**/

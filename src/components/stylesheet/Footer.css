@@ -1,12 +1,12 @@
 /* ------------------------------------ Footer ------------------------------------ */
 .footer {
-   background: #0d1117;
+   background: #0a0e13;
    width: 100.5vw;
+   padding: 0.5%;
 }
 .footer-row {
    /* Footer Container */
-
-   padding: 10px 2% 10px 2%;
+   padding: 5px 3% 5px 3%;
    text-align: center;
 }
 .footerMec {
@@ -14,7 +14,6 @@
    float: left;
 }
 .footerMec img {
-   margin-top: 6%;
    width: 150px;
 }
 .footerExcel {
@@ -22,8 +21,7 @@
    float: right;
 }
 .footerExcel img {
-   margin-top: 6%;
-   width: 50px;
+   width: 150px;
 }
 
 .footerIcon {
@@ -53,9 +51,8 @@
 .fa-facebook,
 .fa-instagram,
 .fa-linkedin-footer {
-   font-size: 20px !important;
-   padding: 10px 14px;
-
+   font-size: 25px !important;
+   padding: 10px 55px;
    transition: 0.5s;
 }
 .fa-facebook:hover {
@@ -69,18 +66,16 @@
 }
 .footer-text {
    color: white;
-   transform: translateX(-5%);
 }
-
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 550px) {
    /* Footer */
    .footerMec img {
-      margin-top: 16%;
       width: 100px;
    }
 
    .footerExcel img {
-      width: 35px;
+      width: 60px;
+      height: 60px;
    }
    .footerIcon {
       display: none;
@@ -88,12 +83,8 @@
    .footerIcon2 {
       margin-top: 50px;
       display: block;
-      margin-left: 38%;
-      margin-right: 15%;
+      margin-left: 26%;
+      margin-right: 20%;
       padding-bottom: 20px;
-   }
-   .footer-text {
-      font-size: 14px;
-      text-align: center;
    }
 }
