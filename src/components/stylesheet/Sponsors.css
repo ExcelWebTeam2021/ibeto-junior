@@ -34,16 +34,3 @@
 #Sponsors img {
    transition: all 0.4s ease-in-out;
 }
-
-.LeftBlob2 {
-   position: absolute;
-   width: 90%;
-}
-
-.LeftBlob2 svg {
-   position: relative;
-   display: block;
-   transform: translateX(70%) rotate(200deg);
-   width: calc(70% + 1.3px);
-   opacity: 0.3;
-}

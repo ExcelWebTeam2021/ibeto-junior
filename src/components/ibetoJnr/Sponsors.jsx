@@ -28,7 +28,7 @@ const Sponsors = () => {
                   </a>{" "}
                </div>
             </div>
-            <div className='text-center col-md-4 col-sm-12'>
+            <div className='text-center col-md-5 col-sm-12'>
                <div data-aos='zoom-out' className='client-logo'>
                   {" "}
                   <a href='https://gdsc.community.dev/government-model-engineering-college-thrikkakara/'>
