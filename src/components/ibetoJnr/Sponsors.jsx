@@ -20,7 +20,7 @@ const Sponsors = () => {
             In associ<span>ation with</span>
          </h2>
          <div className='sponsers-content text-center row  no-gutters clients-wrap clearfix wow fadeInUp'>
-            <div className='text-center col-md-4 col-sm-12'>
+            <div className='text-center col-md-4 col-sm-10'>
                <div data-aos='zoom-out' className='client-logo'>
                   {" "}
                   <a href='https://www.avtnatural.com/'>
