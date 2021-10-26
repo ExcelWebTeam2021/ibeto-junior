@@ -100,4 +100,9 @@
    .footerDiv img {
       height: 42px;
    }
+   .icon1 img,
+   .icon2 img,
+   .icon3 img {
+      height: 33px;
+   }
 }
