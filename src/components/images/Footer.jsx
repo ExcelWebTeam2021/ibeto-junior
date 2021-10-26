@@ -2,10 +2,8 @@ import React from "react";
 import "../stylesheet/Footer.css";
 import "../stylesheet/ResponsiveStyle.css";
 import logo from "../images/logo.svg";
-import mec_logo from "../images/mec_logo1.png";
-import ln from "../images/linkedin.png";
-import fb from "../images/facebook.png";
-import insta from "../images/insta.png";
+import mec_logo from "../assets/Copy of mec_logo.png";
+import l from "../assets/linkedin.png";
 //
 const Footer = () => {
    return (
@@ -20,17 +18,17 @@ const Footer = () => {
 
                <div class='icon1'>
                   <a href='https://www.linkedin.com/company/excelmec' target='blank'>
-                     <img src={ln} />
+                     <img src={l} />
                   </a>
                </div>
                <div class='icon2'>
                   <a href='https://www.facebook.com/excelmec/' target='blank'>
-                     <img src={fb} />
+                     <img src={l} />
                   </a>
                </div>
                <div class='icon3'>
                   <a href='https://www.instagram.com/excelmec/' target='blank'>
-                     <img src={insta} />
+                     <img src={l} />
                   </a>
                </div>
                <div class='footerExcel'>
@@ -39,7 +37,9 @@ const Footer = () => {
                   </a>
                </div>
                <div class='Excelbrand'>
-                  <span class='Excelbrand-text'>Made with ♥ Excel 2021</span>
+                  <span class='Excelbrand-text'>
+                     Made with <a>♥</a> Excel 2020
+                  </span>
                </div>
             </div>
          </footer>
